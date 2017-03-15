@@ -3,440 +3,489 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Educacional</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/price-range.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-        <script src="js/respond.min.js"></script>
-        <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-</head>
-<!--/head-->
+
+<!--#include file="head.html"-->
+
+
 
 <body>
-    <header id="header">
-        <!--header-->
-        <div class="header_top">
-            <!--header_top-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="contactinfo">
-                            <ul class="nav nav-pills">
-                                <li>
-                                    <a href="#"><img src="images/geral/congregacao.png"> Congregação SSpS Brasil Norte</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="contactinfo2">
-                            <ul class="nav nav-pills">
-                                <li><a href="#">Rede de Educação Missionárias Servas do Espírito Santo</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--/header_top-->
-        <div class="header-middle">
-            <!--header-middle-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="logo pull-left">
-                            <a href="index.html"><img src="images/geral/logo.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-8">
-                        <div class="shop-menu pull-center">
-                            <ul class="nav navbar-nav">
-                                <li>
-                                    <a href="#"><img src="images/geral/area-restrita.png"> Área Restrita</a>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="images/geral/biblioteca.png"> Biblioteca</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="shop-menu pull-right">
-                            <ul class="nav navbar-nav">
-                                <li class="midia-social">
-                                    <a href="#"><img src="images/geral/facebook.png"></a>
-                                </li>
-                                <li class="midia-social">
-                                    <a href="#"><img src="images/geral/instagram.png"></a>
-                                </li>
-                                <li class="midia-social">
-                                    <a href="#"><img src="images/geral/youtube.png"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--/header-middle-->
-        <div class="header-bottom">
-            <!--header-bottom-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-9">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                        </div>
-                        <div class="mainmenu">
-                            <ul class="nav navbar-nav collapse navbar-collapse">
-                                <!--<li><a href="index.html" class="active">HOME</a></li>-->
-                                <li class="dropdown"><a id="titulo" href="colegio.php">COLÉGIO<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="#">Histórico</a></li>
-                                        <li><a href="#">Filosofia</a></li>
-                                        <li><a href="#">Estrutura F�sica</a></li>
-                                        <li><a href="#">Tour Virtual</a></li>
-                                        <li><a href="#">Equipe</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a id="titulo" href="educacional.php">EDUCACIONAL<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="#">Projeto Pedag�gico</a></li>
-                                        <li><a href="#">Sistema de Avaliação</a></li>
-                                        <li><a href="#">PREDEC</a></li>
-                                        <li><a href="#">Calend�rio</a></li>
-                                        <li><a href="#">Uniforme</a></li>
-                                        <li><a href="#">Seguro Educacional</a></li>
-                                        <li><a href="#">Extracurricular</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a id="titulo" href="#">SEGMENTO<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="#">Ensino Infantil</a></li>
-                                        <li><a href="#">Fundamental I</a></li>
-                                        <li><a href="#">Fundamental II</a></li>
-                                        <li><a href="#">Ensino Médio</a></li>
-                                        <li><a href="#">Sistema Integral</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a id="titulo" href="#">PASTORAL<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="#">Dimensão Intelectual</a></li>
-                                        <li><a href="#">Dimensão Teológica-Espiritual</a></li>
-                                        <li><a href="#">Dimensão Humano-Social</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a id="titulo" href="#">VIDA NO COLÉGIO<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="#">Publicaçães</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a id="titulo" href="#">MATRÍCULAS<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="#">Alunos Novos</a></li>
-                                        <li><a href="#">Rematrícula</a></li>
-                                        <li><a href="#">Transferência</a></li>
-                                        <li><a href="#">Mensalidades</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a id="titulo" href="#">CONTATO<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="#">Agende uma visita</a></li>
-                                        <li><a href="#">Fale conosco</a></li>
-                                        <li><a href="#">Trabalhe conosco</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="search_box pull-right">
-                            <input type="text" placeholder="Procurar" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--/header-bottom-->
-    </header>
-    <!--/header-->
-    <div class="col-md-12" style="padding:0px;">
-        <!--background-image-educacional-->
-        <img src="images/educacional/educacional.png" style="width: 100%;" alt="" />
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <style>
+        .TextCenter, h2, h3 {
+            text-align: center;
+            color: black;
+        }
+
+        .margem {
+            margin-top: 30px;
+        }
+
+        .central {
+            margin: 0 auto;
+            float: none;
+        }
+
+        .botao {
+        }
+    </style>
+    <!--#include file="menu.html"-->
+
+    <div class="colegio">
+        <img src="images/educacional.png" id="colegio" />
     </div>
-    <section id="CONHECIMENTO-E-VALORES:">
-        <!--background-image-educacional-->
+
+    <div class="container">
+
+        <section>
+            <div class="TextCenter">
+                <h2><strong>CONHECIMENTO E VALORES:</strong></h2>
+                <h3><strong>A BASE DA NOSSA EDUCAÇÃO</strong></h3>
+            </div>
+
+            <div class="col-md-12" style="margin-top: 20px">
+
+                <div class="col-md-6">
+                    <div class="col-md-2">
+                        <img src="images/chapelzinho.png" style="border-right: 1px solid orange" />
+                    </div>
+
+                    <div class="col-md-10" style="padding: 30px">
+                        <strong>NOSSA VISÃO</strong>
+                    </div>
+
+                    <div class="col-md-10" style="float: right; padding-left: 30px">
+                        <strong>Ser uma REDE de Educação inovadora,
+                        reconhecida pela excelência acadêmica,
+                        que prioriza o desenvolvimento integral da
+                        pessoa humana
+                        </strong>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="col-md-2">
+                        <img src="images/medalhinha.png" style="border-right: 1px solid orange" />
+                    </div>
+
+                    <div class="col-md-10" style="padding: 30px">
+                        <strong>NOSSOS VALORES</strong>
+                    </div>
+
+                    <div class="col-md-10" style="float: right; padding-left: 30px">
+                        <strong>Educar crianças e jovens, à luz dos valores
+                            cristãos, para que sejam cidadãos conscientes,
+                            competentes, críticos e criativos, capaz de
+                            conviver com as diferenças e serem
+                            protagonistas na construção de uma sociedade
+                            justa e sustentável.
+                        </strong>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+    </div>
+    <section>
+        <div class="colegio" style="margin-top: 40px">
+
+            <div>
+                <img src="images/imagemProjeto.png" />
+            </div>
+
+            <div style="background-color: #55A1BA; margin-top: -60px; padding: 20px; text-align: left" class="col-md-12">
+
+                <div class="col-md-8 central">
+                    <div>
+                        <h4 style="color: white"><strong>Filosofia da Instituição</strong></h4>
+                    </div>
+
+                    <div style="color: black">
+
+                        <div class="margem">
+                            <li><strong>Favorecer o desenvolvimento da pessoa humana a partir de valores cristãos, para que seja presença transformadora na
+                        sociedade.
+                            </strong></li>
+                        </div>
+
+                        <div class="margem">
+                            <li><strong>Orientar para a responsabilidade social, o exercício da cidadania e para o compromisso com os valores autônomos, como: a
+                        verdade (ética), a beleza, (estética), a bondade (compaixão) e a justiça (fraternidade)
+                            </strong></li>
+                        </div>
+
+                        <div class="margem">
+                            <li><strong>Possibilitar a vivência da fé, da vida interior, sustentáculos indispensáveis diante das dificuldades do cotidiano.
+                            </strong></li>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <center>
-                        <h2>CONHECIMENTO E VALORES:</h2>
-                        <h3>A BASE DA NOSSA EDUCAÇÃO</h3>
-                    </center>
+
+            <div class="col-md-12" style="margin-top: 40px">
+                <div class="col-md-4" style="margin: 0 auto; float: none">
+                    <h3 style="border-bottom: 3px solid #ff6600;"><strong>SISTEMA DE AVALIAÇÃO</strong></h3>
                 </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-4">
-                    <div class="col-md-3">
-                        <img src="images/educacional/1.png" class="img-responsive" alt="" />
-                    </div>
-                    <div class="col-md-9">
-                        <h4>NOSSA VISÃO</h4>
-                        Ser uma REDE de Educação inovadora, reconhecida pela excelência acadêmica, que prioriza o desenvolvimento integral da pessoa humana
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="col-md-3">
-                        <img src="images/educacional/2.png" class="img-responsive" alt="" />
-                    </div>
-                    <div class="col-md-9">
-                        <h4>NOSSOS VALORES</h4>
-                        Educar crianças e jovens, à luz dos valores cristãos, para que sejam cidadãos conscientes, competentes, críticos e criativos, capaz de conviver com as diferenças e serem protagonistas na construção de uma sociedade justa e sustentável.</div>
-                </div>
-                <div class="col-md-2"></div>
             </div>
-        </div>
-    </section>
-    <div class="col-md-12" style="padding:0px;">
-        <img src="images/educacional/pedagogico.png" style="padding-top:40px;width:100%;" alt="" />
-    </div>
-    <section>
-        <div class="row">
-            <div class="col-md-12" style="background-color: rgb(113, 160, 184);">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <h4>Filosofia da Instituição</h4>
-                    <ul type="square">
-                        <li><i class="glyphicon glyphicon-chevron-right">Favorecer o desenvolvimento da pessoa humana a partir de valores cristãos, para que seja presença transformadora na sociedade.</i></li><br/>
-                        <li><i class="glyphicon glyphicon-chevron-right">Orientar para a responsabilidade social, o exercício da cidadania e para o compromisso com os valores autônomos, como: a verdade (ética), a beleza, (estética), a bondade (compaixão) e a justiça (fraternidade).</i></li><br/>
-                        <li><i class="glyphicon glyphicon-chevron-right">Possibilitar a vivência da fé, da vida interior, sustentáculos indispensáveis diante das dificuldades do cotidiano.</i></li><br/>
-                    </ul>
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="row" style="padding-top: 40px">
-            <div class="col-md-12">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <center>
-                        <h3>SISTEMA DE AVALIAÇÃO</h3>
-                    </center>
-                    <p>FAÇA DOWNLOAD SEGURO EDUCACIONAL PREDEC Programa de Estudo e Desenvolvimento de Competências Para quem é este programa? Quais seus objetivos? Organização funcional A avaliação deve ser entendida como articuladora dos processos de ensinar
-                        e aprender e pensada de tal modo que o aluno possa participar com responsabilidade do processo de aprendizagem, ao tomar conhecimento do que ele já sabe, do que precisa aprender e do que ainda constitui uma dificuldade para ele.</p>
-                    <p>Na Rede de Educação das Missionárias Servas do Espírito Santo, o ano letivo está estruturado em TRÊS ETAPAS e o sistema de avaliação tem sua distribuição de pontos atendendo às diretrizes específicas do Ensino Fundamental I, II e Ensino
-                        Médio (Avaliação em Módulos).</p>
-                    <p><em>“A avaliação será constante, contínua e cumulativa e terá por objetivo a verificação da aprendizagem, o aproveitamento e desenvolvimento do educando, a atenção das mudanças de seu comportamento e a verificação do rendimento
-                        escolar para fins de promoção. A apuração da assiduidade constituirá também fator componente da avaliação”.</em></p>
-                    <p>(LDB – No. 9394/96) A avaliação do desempenho tem função diagnóstica, formativa e somativa. Em sua totalidade, abrange os conteúdos e outros aspectos do desempenho do aluno, como atitudes, procedimentos e habilidades. Cabe à Equipe
-                        Pedagógica da Série acompanhar sistematicamente o desenvolvimento dos alunos em sua respectiva série, orientá-los e informar às famílias.
+
+            <div class="col-md-9 central margem">
+                <div class="margem">
+                    <p>
+                        A avaliação deve ser entendida como articuladora dos processos de ensinar e aprender e pensada de tal modo que o aluno possa participar com
+                    responsabilidade do processo de aprendizagem, ao tomar conhecimento do que ele já sabe, do que precisa aprender e do que ainda constitui uma dificuldade para
+                    ele.
                     </p>
                 </div>
-                <div class="col-md-2"></div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="row" style="padding-top: 40px">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <div role="tabpanel">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active">
-                            <a href="#Infantil" aria-controls="Infantil" data-toggle="tab" role="tab">Educação Infantil</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#Fundamental" aria-controls="Fundamental" data-toggle="tab" role="tab">Ensino Fundamental I</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#Fundamental2" aria-controls="Fundamental2" data-toggle="tab" role="tab">Ensino Fundamental II</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#Medio" aria-controls="Medio" data-toggle="tab" role="tab">Ensino Médio</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="Infantil">
-                            <p>Em cada disciplina ou conteúdo será atribuído ao educando o total de 100 (cem) pontos, dos quais deverá obter no mínimo 60 (sessenta). O rendimento será aferido em 3 (três) etapas: 1ª etapa: 30 pontos (com média de 18 pontos)
-                                2ª etapa: 35 pontos (com média de 21 pontos) 3ª etapa: 35 pontos (com média de 21 pontos) Considerando a Verificação do Rendimento Escolar, a distribuição dos pontos em cada etapa atenderá aos seguintes critérios: </p>
+
+                <div class="margem">
+                    <p>
+                        Na Rede de Educação das Missionárias Servas do Espírito Santo, o ano letivo está estruturado em TRÊS ETAPAS e o sistema de avaliação tem sua distribuição
+                        de pontos atendendo às diretrizes específicas do Ensino Fundamental I, II e Ensino Médio (Avaliação em Módulos).
+                    </p>
+                </div>
+
+                <div class="margem central col-md-8">
+                    <p>
+                        <strong>“A avaliação será constante, contínua e cumulativa e terá por objetivo a verificação da aprendizagem, o
+                                aproveitamento e desenvolvimento do educando, a atenção das mudanças de seu comportamento e a verificação do
+                                rendimento escolar para fins de promoção. A apuração da assiduidade constituirá também fator componente da avaliação”.
+                                (LDB – No. 9394/96)
+                        </strong>
+                    </p>
+                </div>
+
+                <div class="margem">
+                    <p>
+                        A avaliação do desempenho tem função diagnóstica, formativa e somativa. Em sua totalidade, abrange os conteúdos e outros aspectos do desempenho do
+                        aluno, como atitudes, procedimentos e habilidades.
+                    </p>
+                </div>
+
+                <div class="margem">
+                    <p>
+                        Cabe à Equipe Pedagógica da Série acompanhar sistematicamente o desenvolvimento dos alunos em sua respectiva série, orientá-los e informar às famílias.
+                    </p>
+                </div>
+
+                <div>
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#tabs-1">Educação Infantil</a></li>
+                            <li><a href="#tabs-2">Ensino Fundamental I</a></li>
+                            <li><a href="#tabs-3">Ensino Fundamental II</a></li>
+                            <li><a href="#tabs-4">Ensino Médio</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
                         </div>
-                        <div role="tabpanel" class="tab-pane" id="Fundamental">
-                            <p>Em cada disciplina ou conteúdo será atribuído ao educando o total de 100 (cem) pontos, dos quais deverá obter no mínimo 60 (sessenta).
+                        <div id="tabs-2" style="font-size: 12px">
+
+                            <div>
+                                <p>Em cada disciplina ou conteúdo será atribuído ao educando o total de 100 (cem) pontos, dos quais deverá obter no mínimo 60 (sessenta).</p>
+                            </div>
+
+                            <div>
                                 <p>O rendimento será aferido em 3 (três) etapas:</p>
-                                <p>1ª etapa: 30 pontos (com média de 18 pontos)</p>
-                                <p>2ª etapa: 35 pontos (com média de 21 pontos)</p>
-                                <p>3ª etapa: 35 pontos (com média de 21 pontos) </p><br/>
+                            </div>
 
+                            <div>
+                                1ª etapa: 30 pontos (com média de 18 pontos)<br />
+                                2ª etapa: 35 pontos (com média de 21 pontos)<br />
+                                3ª etapa: 35 pontos (com média de 21 pontos)<br />
+                            </div>
+
+                            <div class="margem">
                                 <p>Considerando a Verificação do Rendimento Escolar, a distribuição dos pontos em cada etapa atenderá aos seguintes critérios:</p>
-                                <center>
-                                    <strong>
-                                        <h4>AVALIAÇÕES</h4>
-                                        <p>Ensino Fundamental I (1º ao 5º Ano)</p>
-                                    </strong>
-                                </center>
-                                <div class="col-md-12">
-                                    <table class="table table-condensed">
-                                        <thead>
-                                            <tr>
-                                                <th></th>
-                                                <th>1</th>
-                                                <th>2</th>
-                                                <th>3</th>
-                                                <th>4</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>A</td>
-                                                <td>B</td>
-                                                <td>C</td>
-                                                <td>D</td>
-                                                <td>E</td>
-                                            </tr>
-                                            <tr>
-                                                <td>A</td>
-                                                <td>B</td>
-                                                <td>C</td>
-                                                <td>D</td>
-                                                <td>E</td>
-                                            </tr>
-                                            <tr>
-                                                <td>A</td>
-                                                <td>B</td>
-                                                <td>C</td>
-                                                <td>D</td>
-                                                <td>E</td>
-                                            </tr>
-                                            <tr>
-                                                <td>A</td>
-                                                <td>B</td>
-                                                <td>C</td>
-                                                <td>D</td>
-                                                <td>E</td>
-                                            </tr>
-                                    </table>
-                                </div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane" id="Fundamental2">
-                            <p>B</p>
-                        </div>
-                        <div role="tabpanel" class="tab-pane" id="Medio">
-                            <p>C</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2"></div>
-        </div>
-    </section>
-    <section>
-    </section>
-    <footer id="footer">
-        <!--Footer-->
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <div class="single-widget">
-                            <a href="paginas/colegio.php>">
-                                <h2>COLÉGIO</h2>
-                            </a>
-                            <ul class="nav nav-pills nav-stacked">
-                                <li><a href="#">História</a></li>
-                                <li><a href="#">Filosofia</a></li>
-                                <li><a href="#">Estrutura Física</a></li>
-                                <li><a href="#">Tuor Virtual</a></li>
-                                <li><a href="#">Equipe</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="single-widget">
-                            <h2>Seguimento</h2>
-                            <ul class="nav nav-pills nav-stacked">
-                                <li><a href="#">Ensino Infantil</a></li>
-                                <li><a href="#">Fundamental I</a></li>
-                                <li><a href="#">Fundamental II</a></li>
-                                <li><a href="#">Ensino Médio</a></li>
-                                <li><a href="#">Sistema Integral</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="single-widget">
-                            <h2>Educacional</h2>
-                            <ul class="nav nav-pills nav-stacked">
-                                <li><a href="#">Projeto Pedagógico</a></li>
-                                <li><a href="#">Sistema de Avaliação</a></li>
-                                <li><a href="#">PREDEC</a></li>
-                                <li><a href="#">Calendario</a></li>
-                                <li><a href="#">Uniforme</a></li>
-                                <li><a href="#">Seguro Educacional</a></li>
-                                <li><a href="#">Extracurricular</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="single-widget">
-                            <h2>Contato</h2>
-                            <ul class="nav nav-pills nav-stacked">
-                                <li><a href="#">Aluno novo</a></li>
-                                <li><a href="#">Matrícula</a></li>
-                                <li><a href="#">Rematrícula</a></li>
-                                <li><a href="#">Trnasferência</a></li>
-                                <li><a href="#">Mensalidades</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 col-sm-offset-1">
-                        <div class="single-widget">
-                            <h2>Sobre a rede</h2>
-                            <form action="#" class="searchform">
-                                <input type="text" placeholder="Digite seu e-mail" />
-                                <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
-                                <p>Para receber e atualizar sobre a<br /> rede de Educação missionária.</p>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <p class="pull-left">Rede de Educação Missionárias Servas do Espírito Santo.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--/Footer-->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/price-range.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
-</body>
+                            </div>
 
+                            <div style="text-align: center">
+                                <div>
+                                    <strong>AVALIAÇÕES</strong>
+                                </div>
+                                <div>
+                                    <strong>Ensino Fundamental I (1º ao 5º Ano)</strong>
+                                </div>
+
+                            </div>
+
+                            <div class="margem">
+                                <table class="table-bordered central" style="width: 520px">
+
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td>Intermediária</td>
+                                            <td>Trimestral</td>
+                                            <td>Diversificadas e Atitudinal</td>
+                                            <td>Pontuação Máxima</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>1ª Etapa</td>
+                                            <td>8 Pontos</td>
+                                            <td>10 Pontos</td>
+                                            <td>12 Pontos</td>
+                                            <td>30 Pontos</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>2ª Etapa</td>
+                                            <td>10 Pontos</td>
+                                            <td>12 Pontos</td>
+                                            <td>13 Pontos</td>
+                                            <td>35 Pontos</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>3ª Etapa</td>
+                                            <td>10 Pontos</td>
+                                            <td>12 Pontos</td>
+                                            <td>13 Pontos</td>
+                                            <td>35 Pontos</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                        <div id="tabs-3">
+                            <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                            <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+                        </div>
+                        <div id="tabs-4">
+                            <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                            <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="margem">
+                    <img src="images/div-chamada.png" />
+                </div>
+
+                <div class="col-md-12 margem">
+                    <div class="col-md-12 central">
+                        <h3 style="border-bottom: 3px solid #ff6600;"><strong>PREDEC<br />
+                            Programa de Estudo e Desenvolvimento de Competências</strong></h3>
+                    </div>
+                </div>
+
+
+                <div>
+                    <p>
+                        A equipe de professores do Colégio Imaculado Coração de Maria tendo em vista o formar alunos cada vez mais competentes têm assumido uma metodologia
+                    que faça com que o aluno construa o seu conhecimento.
+                    </p>
+                </div>
+
+                <div class="margem">
+                    <p>
+                        Considerando a heterogeneidade dos alunos no processo de aprendizagem a equipe pedagógica elaborou um Programa de Estudo e de desenvolvimento de
+                    competências que atenderá aos alunos que necessitam de uma maior acompanhamento no seu processo de aprendizagem.
+                    </p>
+                </div>
+
+                <div class="margem">
+                    <p>
+                        Este Programa será efetivado com a participação dos professores das diversas disciplinas e monitores.
+                    </p>
+                </div>
+
+                <div class="col-md-4 margem">
+                    <img src="images/lupinha.png" />
+
+                    <div class="margem" style="color: black">
+                        <strong>Para quem é este programa?</strong>
+                    </div>
+
+                    <div style="font-size: 12px; margin-top: 10px">
+                        O PROGRAMA de ESTUDO e DESENVOLVIMENTO
+                        DE COMPETÊNCIAS é para os alunos que
+                        necessitam desenvolver ou aprimorar diversas
+                        habilidades que possibilitarão articular melhor os
+                        conteúdos e aplicá-los nas diferentes áreas do
+                        conhecimento, favorecendo uma aprendizagem
+                        mais significativa.
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 margem">
+                    <img src="images/graficozinho.png" />
+
+                    <div class="margem" style="color: black">
+                        <strong>Quais seus objetivos?</strong>
+                    </div>
+
+                    <div style="font-size: 12px; margin-top: 10px">
+                        Ÿ Orientar os alunos para estratégias de estudo
+                            Ÿ Favorecer o desenvolvimento de
+                            competências;
+                            Ÿ Colaborar para que os alunos superem suas
+                            dificuldades no processo de aprendizagem.
+                            Ÿ Permitir aos alunos um reforço do conteúdo
+                            desenvolvido em sala, incentivando-os a
+                            construir o seu conhecimento.
+                            Ÿ Construir uma sistemática de estudo
+                            constante
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 margem">
+                    <img src="images/engrenagem.png" />
+
+                    <div class="margem" style="color: black">
+                        <strong>Organização funcional</strong>
+                    </div>
+
+                    <div style="font-size: 12px; margin-top: 10px">
+                        O PREDEC consiste:
+                        · No desenvolvimento de atividades pelos
+                        professores, em sala de aula, considerando as
+                        competências para o Século XXI e as
+                        habilidades necessárias a construção do
+                        conhecimento que hoje se cobra nos
+                        vestibulares e que são essenciais para o bom
+                        desempenho nas diversas profissões.
+                        · Na organização de grupos de aluno, por série,
+                        que serão acompanhados por
+                        Monitores/Professores,no turno da tarde
+                        considerando o horário pré-estabelecido.
+                        · Os alunos participarão de “oficinas” de
+                        DESENVOLVIMENTO HABILIDADES que os
+                        ajudarão em seu processo de aprendizagem dos
+                        conteúdos estudados em sala de aula.
+                        · Na indicação de alunos que precisam de um
+                        reforço, pelos professores.
+                        · Na inscrição dos alunos no PREDEC, com o
+                        compromisso de freqüência.
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section>
+        <div style="background-color: #cedfe6; padding: 20px" class="margem col-md-12">
+
+            <div class="col-md-12" style="margin-bottom: 20px">
+                <div class="col-md-3 central">
+                    <h3 style="border-bottom: 3px solid #ff6600;"><strong>FAÇA DOWNLOAD</strong></h3>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-md-offset-2">
+                <img src="images/calendario.png" />
+            </div>
+
+            <div class="col-md-3">
+                <img src="images/lista-material.png" />
+            </div>
+
+            <div class="col-md-3">
+                <img src="images/uniforme.png" />
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="col-md-12 margem">
+
+                <div class="col-md-4">
+                    <div>
+                        <img src="images/casa.png" />
+                    </div>
+
+                    <div>
+                        <button class="btn btn-primary col-md-8" style="background: #ff6600">SAIBA MAIS</button>
+                    </div>
+
+                </div>
+
+                <div class="col-md-8">
+                    <div class="col-md-8" style="margin-bottom: 20px">
+                        <div class="col-md-12 central">
+                            <h3 style="border-bottom: 3px solid #ff6600;"><strong>SEGURO EDUCACIONAL</strong></h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <p>
+                            Seu filho está seguro na nossa escola através do Seguro Educacional MAPFRE.
+
+                        </p>
+
+                        <p>
+                            Este seguro garante atendimento emergencial ao Estudante, no caso de acidente, doença ou intervenção cirúrgica
+                            e acontecimentos súbitos e imprevistos nos seguintes casos:
+
+                        </p>
+
+                        <div>
+                            <ul style="padding-left: 0px;">
+                                <li>Remoção de emergência</li>
+                                <li>Remoção inter-hospitalar</li>
+                                <li>Retorno à residência após alta hospitalar</li>
+                                <li>Assistência paramédica domiciliar</li>
+                                <li>Transporte para frequência às aulas</li>
+                                <li>Transporte para tratamento fisioterápico</li>
+                                <li>Aulas em casa</li>
+                                <li>Locação de aparelhos ortopédicos e hospitalares</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="col-md-8" style="margin-bottom: 20px;padding-left:0px">
+                        <div class="col-md-12 central">
+                            <h3 style="border-bottom: 3px solid #ff6600;"><strong>EXTRACURRICULAR</strong></h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="margem">
+            <img src="images/carrousel.png"/>
+        </div>
+    </section>
+
+    <div class="margem">
+        <!--#include file="footer.html"-->
+    </div>
+    
+
+</body>
+<script>
+    $(function () {
+        $("#tabs").tabs({
+            event: "mouseover"
+        });
+    });
+</script>
 </html>

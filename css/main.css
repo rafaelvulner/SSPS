@@ -8,7 +8,6 @@
 
 body {
   font-family: 'Roboto';
-  background:;
   position: relative;
   font-weight:400px;
 }
@@ -178,7 +177,7 @@ background: url("../images/geral/top-bar.png") no-repeat;
 .header-middle .container .row {
   margin-left: 0;
   margin-right: 0;
-  padding-bottom: 10px;
+  padding-bottom: 10px;cole
   padding-top: 10px;
 }
 

@@ -3,315 +3,331 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Contato</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/price-range.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-	<link href="css/contato/main.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-
-   </head><!--/head-->
+<!--#include file="head.html"-->
 
 <body>
-	<header id="header"><!--header-->
-		<div class="header_top"><!--header_top-->
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="contactinfo">
-							<ul class="nav nav-pills">
-								<li><a href="index.html"><img src="images/geral/congregacao.png"> Congregação SSpS Brasil Norte</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-sm-6">
-						<div class="contactinfo2">
-							<ul class="nav nav-pills">
-								<li><a href="index.html">Rede de Educação Missionárias Servas do Espírito Santo</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!--/header_top-->
-
-		<div class="header-middle"><!--header-middle-->
-
-      <div class="container">
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="logo pull-left">
-							<a href="index.html"><img src="images/geral/logo.png" alt="" /></a>
-						</div>
-
-					</div>
-
-					<div class="col-sm-8">
-						<div class="shop-menu pull-center">
-							<ul class="nav navbar-nav">
-								<li><a href="#"><img src="images/geral/area-restrita.png"> Área Restrita</a></li>
-                <li><a href="#"><img src="images/geral/biblioteca.png"> Biblioteca</a></li>
-							</ul>
-						</div>
-						<div class="shop-menu pull-right">
-							<ul class="nav navbar-nav">
-								<li class="midia-social"><a href="#"><img src="images/geral/facebook.png"></a></li>
-								<li class="midia-social"><a href="#"><img src="images/geral/instagram.png"></a></li>
-								<li class="midia-social"><a href="#"><img src="images/geral/youtube.png"></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!--/header-middle-->
-
-		<div class="header-bottom"><!--header-bottom-->
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-9">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-						<div class="mainmenu">
-							<ul class="nav navbar-nav collapse navbar-collapse">
-
-								<li class="dropdown"><a id="titulo_sel" href="colegio.php">COLÉGIO<i class="fa fa-angle-down"></i></a>
-	                                <ul role="menu" class="sub-menu">
-	                                    <li><a href="#historico">Histórico</a></li>
-										<li><a href="#filosofia">Filosofia</a></li>
-										<li><a href="#estrutura">Estrutura Física</a></li>
-										<li><a href="#tour">Tour Virtual</a></li>
-										<li><a href="#equipe">Equipe</a></li>
-                            		</ul>
-              				  	</li>
-
-					<li class="dropdown"><a id="titulo" href="educacional.php">EDUCACIONAL<i class="fa fa-angle-down"></i></a>
-                        <ul role="menu" class="sub-menu">
-                            <li><a href="#">Projeto Pedagógico</a></li>
-		                    <li><a href="#">Sistema de Avaliação</a></li>
-                            <li><a href="#">PREDEC</a></li>
-		                    <li><a href="#">Calendário</a></li>
-                            <li><a href="#">Uniforme</a></li>
-							<li><a href="#">Seguro Educacional</a></li>
-							<li><a href="#">Extracurricular</a></li>
-                        </ul>
-                </li>
-
-					<li class="dropdown"><a id="titulo" href="#">SEGMENTO<i class="fa fa-angle-down"></i></a>
-                        <ul role="menu" class="sub-menu">
-                            <li><a href="#">Ensino Infantil</a></li>
-							                    <li><a href="#">Fundamental I</a></li>
-                            <li><a href="#">Fundamental II</a></li>
-							                    <li><a href="#">Ensino Médio</a></li>
-                            <li><a href="#">Sistema Integral</a></li>
-                        </ul>
-                </li>
-
-					<li class="dropdown"><a id="titulo" href="#">PASTORAL<i class="fa fa-angle-down"></i></a>
-	                    <ul role="menu" class="sub-menu">
-	                        <li><a href="#">Dimensão Intelectual</a></li>
-							                    <li><a href="#">Dimensão Teológica-Espiritual</a></li>
-	                        <li><a href="#">Dimensão Humano-Social</a></li>
-	                    </ul>
-                </li>
-
-                <li class="dropdown"><a id="titulo" href="#">VIDA NO COLÉGIO<i class="fa fa-angle-down"></i></a>
-                    <ul role="menu" class="sub-menu">
-                        <li><a href="#">Publicações</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown"><a id="titulo" href="#">MATRÍCULAS</a>
-                    <ul role="menu" class="sub-menu">
-                        <li><a href="#">Alunos Novos</a></li>
-                        <li><a href="#">Rematrícula</a></li>
-                        <li><a href="#">Transferência</a></li>
-                        <li><a href="#">Mensalidades</a></li>
-                    </ul>
-                </li>
-					<li class="dropdown"><a id="titulo" href="contato.php">CONTATO<i class="fa fa-angle-down"></i></a>
-                        <ul role="menu" class="sub-menu">
-                            <li><a href="#">Agende uma visita</a></li>
-		                    <li><a href="#">Fale conosco</a></li>
-                            <li><a href="#">Trabalhe conosco</a></li>
-
-                        </ul>
-                	</li>
-				</ul>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="search_box pull-right">
-							<input type="text" placeholder="Procurar"/>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!--/header-bottom-->
-	</header><!--/header-->
-
-	<div class="colegio">
-  		<img src="images/contato/colegio.png" id="colegio">
-
-	</div>
-
-	<section id="visita">
-		<div class="contatiner">
-		<h1>QUE TAL VIR 
-		NOS CONHECER?</h1>
-			Use o campo ao lado para solicitar o agendamento de uma visita para conhecer o nosso colégio. 
-			Nós entraremos em contato com você o mais breve possível para confirmá-la. 
-			As visitas poderão acontecer de segunda à sexta das 9h às 19h30 Sábados das 9h às 13h
-
-			<h3>AGENDE UMA VISITA</h3>
-			<hr></hr>
-
-		
-
-			FALE CONOSCO
-			Horário de atendimento telefônico e presencial: De segunda à sexta das 9h às 19h30 e sábados das 9h às 13h
-
-			Telefone 
-			(21) 2281-5088
-			E-mail
-			secretaria@cicm.com.br
-			Endereço
-			Rua Aristides Caire 141
-			Bairro Méier
-			Rio de Janeiro - RJ
-			
-		</div>
-
-	</section>
-
-	<section id="inscreva">
-
-		INSCREVA SEU E-MAIL PARA RECEBER AS NOSSAS ATUALIZAÇÕES
-
-	</section>
-
-	<section id="comoChegar">
-
-		SAIBA COMO CHEGAR
-	</section>
-
-	<section id="trabalheConosco">
-		TRABALHE CONOSCO
-	</section>
+    <!--#include file="menu.html"-->
 
 
+    <style>
+        .iconInput {
+            position: relative;
+        }
 
-	<footer id="footer"><!--Footer-->
-		<div class="footer-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-2">
-						<div class="single-widget">
-							<h2>Colégio</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">História</a></li>
-								<li><a href="#">Filosofia</a></li>
-								<li><a href="#">Estrutura Física</a></li>
-								<li><a href="#">Tuor Virtual</a></li>
-								<li><a href="#">Equipe</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-2">
-						<div class="single-widget">
-							<h2>Seguimento</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Ensino Infantil</a></li>
-								<li><a href="#">Fundamental I</a></li>
-								<li><a href="#">Fundamental II</a></li>
-								<li><a href="#">Ensino Médio</a></li>
-								<li><a href="#">Sistema Integral</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-2">
-						<div class="single-widget">
-							<h2>Educacional</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Projeto Pedagógico</a></li>
-								<li><a href="#">Sistema de Avaliação</a></li>
-								<li><a href="#">PREDEC</a></li>
-								<li><a href="#">Calendario</a></li>
-								<li><a href="#">Uniforme</a></li>
-								<li><a href="#">Seguro Educacional</a></li>
-								<li><a href="#">Extracurricular</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-2">
-						<div class="single-widget">
-							<h2>Contato</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Aluno novo</a></li>
-								<li><a href="#">Matrícula</a></li>
-								<li><a href="#">Rematrícula</a></li>
-								<li><a href="#">Trnasferência</a></li>
-								<li><a href="#">Mensalidades</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-3 col-sm-offset-1">
-						<div class="single-widget">
-							<h2>Sobre a rede</h2>
-							<form action="#" class="searchform">
-								<input type="text" placeholder="Digite seu e-mail" />
-								<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
-								<p>Para receber e atualizar sobre a<br /> rede de educação missionária.</p>
-							</form>
-						</div>
-					</div>
+            .iconInput input {
+                padding-left: 28px;
+            }
 
-				</div>
-			</div>
-		</div>
+            .iconInput i {
+                position: absolute;
+                padding: 9px 10px;
+            }
 
-		
 
-		<div class="footer-bottom">
-			<div class="container">
-				<div class="row">
-					<p class="pull-left">Rede de Educação Missionárias Servas do Espírito Santo.</p>
-				</div>
-			</div>
-		</div>
+        .formularioCont {
+            border-radius: 0px;
+            background-color: white;
+            border: 1px solid #ccc;
+        }
 
-	</footer><!--/Footer-->
+        .botaoForm {
+            background: #ff6600 !important;
+        }
+
+        .divForm {
+            background-color: #ddd;
+        }
+
+        .alinhar {
+            padding-left: 0px;
+        }
+
+        .bordaPrimaria {
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            height: 100px;
+        }
+
+        .bordaCentro {
+            border: 1px solid #ccc;
+            height: 100px;
+        }
+    </style>
+
+    <div class="colegio">
+        <img src="images/contato.png" id="colegio" />
+    </div>
+
+    <div class="container">
+
+        <section id="visita">
+            <div class="col-md-3 alinhar">
+                <div style="margin-top: 30px">
+                    <h3>
+                        <strong>QUE TAL VIR
+                    NOS CONHECER?
+                        </strong>
+
+                    </h3>
+                </div>
+
+                <div style="margin-top: 30px">
+                    Use o campo ao lado para solicitar
+                o agendamento de uma visita para
+                conhecer o nosso colégio.
+                </div>
+
+                <div style="margin-top: 30px">
+                    Nós entraremos em contato com você
+                o mais breve possível para confirmá-la.
+
+                </div>
+
+                <div style="margin-top: 30px">
+                    As visitas poderão acontecer
+                <strong>de segunda à sexta das 9h às 19h30
+                Sábados das 9h às 13h
+                </strong>
+                </div>
+
+
+            </div>
+
+            <div class="col-md-6 divForm " style="margin: 30px; padding: 30px">
+
+                <div class="col-md-2 alinhar">
+                    <img src="images/agenda.png" />
+                </div>
+
+                <div class="col-md-6">
+                    <h4>AGENDE UMA VISITA</h4>
+                    <hr style="border-top: 1px solid #ff6600;" />
+                </div>
+
+                <div class="form-group ">
+                    <input type="text" class="form-control formularioCont" placeholder="Nome*" />
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control formularioCont" placeholder="E-mail*" />
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control formularioCont" placeholder="telefone*" />
+                </div>
+
+                <div class="form-group">
+                    <textarea placeholder="Mensagem" rows="4" cols="100" class="formularioCont"></textarea>
+                </div>
+
+                <div class="col-md-2 alinhar" style="float: right; padding-right: 0 !important">
+                    <button class="formularioCont btn btn-primary botaoForm" style="float: right;">ENVIAR</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="faleConosco">
+            <div class="col-md-12">
+                <div class="col-md-3 alinhar">
+                    <h3>FALE CONOSCO</h3>
+                    <hr style="border-top: 1px solid #ff6600;" />
+                </div>
+            </div>
+
+
+            <div class="col-md-12" style="margin-top: 20px; margin-bottom: 20px">
+                <h5>Horário de atendimento telefônico e presencial: De segunda à sexta das 9h às 19h30 e sábados das 9h às 13h</h5>
+            </div>
+        </section>
+
+        <section>
+            <div class="col-md-12">
+
+                <div class="col-md-3 bordaPrimaria" style="margin-top: 20px; margin-bottom: 20px; padding: 20px">
+                    <div class="col-md-1">
+                        <img src="images/telefoninho.png" />
+                    </div>
+                    <div class="col-md-10">
+                        <strong>Telefone:</strong>
+                        <br />
+                        (12) 2281-5088
+                    </div>
+                </div>
+
+                <div class="col-md-3 bordaCentro" style="margin-top: 20px; margin-bottom: 20px; padding: 20px">
+                    <div class="col-md-1">
+                        <img src="images/emailzinho.png" />
+                    </div>
+                    <div class="col-md-10">
+                        <strong>Email:</strong>
+                        <br />
+                        secretaria@cicm.com.br
+                    </div>
+                </div>
+
+                <div class="col-md-4 bordaPrimaria" style="margin-top: 20px; margin-bottom: 20px; padding: 20px">
+                    <div class="col-md-1">
+                        <img src="images/gps.png" />
+                    </div>
+                    <div class="col-md-10">
+                        <strong>Endereço:</strong>
+                        <br />
+                        Rua Aristides Caire 141
+                            Bairro Méier
+                            Rio de Janeiro - RJ
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+
+    <section>
+        <div class="col-md-12" style="background-color: #ff6600; padding: 20px">
+            <div style="text-align: center; font-size: large; color: white">
+                <strong>INSCREVA SEU E-MAIL PARA RECEBER AS NOSSAS ATUALIZAÇÕES</strong>
+            </div>
+
+            <div class="iconInput col-md-6" style="margin: 0 auto; float: none">
+
+                <div class="col-md-9">
+                    <i class="glyphicon glyphicon glyphicon-envelope"></i>
+                    <input type="text" class="form-control" placeholder="| E-mail" />
+                </div>
+
+
+                <div class="col-md-3">
+                    <button class="btn btn-primary" style="margin-top: 0; border: 1px solid transparent; border-radius: 4px; background: #286090">Enviar</button>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="container" style="margin-top: 20px">
+        <div class="col-md-12">
+
+            <h3>SAIBA COMO CHEGAR</h3>
+
+            <div class="col-md-3 alinhar">
+                <hr style="border-top: 1px solid #ff6600;" />
+            </div>
+        </div>
+    </div>
+
+
+    <section>
+        <div class="col-md-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.4202447231073!2d-43.27921038517328!3d-22.897865443309087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997db14792a53f%3A0x8443e5c0e7a6736e!2sR.+Aristides+Caire%2C+141+-+Meier%2C+Rio+de+Janeiro+-+RJ%2C+20775-090!5e0!3m2!1spt-BR!2sbr!4v1489530581429" width="100%" height="350px" style="border: 0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <div class="container" style="margin-top: 20px">
+        <div class="col-md-12">
+
+            <h3>TRABALHE CONOSCO</h3>
+
+            <div class="col-md-3 alinhar">
+                <hr style="border-top: 1px solid #ff6600;" />
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+
+            <div class="col-md-10 divForm " style="margin: 30px; padding: 30px">
+                <div class="form-group">
+                    NOME
+                    <input type="text" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    EMAIL
+                    <input type="email" class="form-control" />
+                </div>
 
 
 
-    <script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.scrollUp.min.js"></script>
-	<script src="js/price-range.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
+                <div class="form-group col-md-6" style="padding-left: 0px">
+                    SEGMENTO
+                        <select class="form-control">
+                            <option value="volvo">Selecione</option>
+
+                        </select>
+                </div>
+
+                <div class="form-group col-md-6" style="padding-left: 0px; padding-right: 0px">
+                    ÁREA DE INTERESSE
+                        <select class="form-control">
+                            <option value="volvo">Selecione</option>
+                        </select>
+                </div>
+
+
+                <div class="col-md-6" style="padding-left: 0px">
+                    <div>
+                        TELEFONE RESIDENCIAL
+                    </div>
+                    <div class="col-md-3 col-xs-3" style="padding-left: 0px">
+                        <input type="text" class="form-control" />
+                    </div>
+
+                    <div class="col-md-9 col-xs-9" style="padding-left: 0px; padding-right: 0px">
+                        <input type="text" class="form-control" />
+                    </div>
+
+                </div>
+
+                <div class="col-md-6" style="padding-left: 0px; padding-right: 0px">
+                    <div>
+                        CELULAR
+                    </div>
+
+                    <div class="col-md-3 col-xs-3" style="padding-left: 0px">
+                        <input type="text" class="form-control" />
+                    </div>
+
+                    <div class="col-md-9 col-xs-9" style="padding-left: 0px; padding-right: 0px">
+                        <input type="text" class="form-control" />
+                    </div>
+
+                </div>
+
+                <div class="col-md-6" style="padding-left: 0px">
+                    <input type="button" class="btn btn-primary col-md-12" value="+ ADICIONAR CURRÍCULUM" style="border: 1px solid transparent; border-radius: 4px; background: #286090; padding-left: 0px" />
+                </div>
+
+                <div class="col-md-6" style="padding: 20px">
+                    Anexe seu currículum vitae em .DOC, .TXT ou .PDF                   
+                </div>
+
+                <div class="col-md-12">
+                    <div class="col-md-8" style="padding-left: 0px;margin: 0 auto;float: none;">
+                        <input type="button" class="btn btn-primary col-md-12" value="ENVIAR" style="border: 1px solid transparent; border-radius: 4px; background: #ff6600; padding-left: 0px" />
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>     
+    </section>
+
+   
+
+
+
+
+    <!--#include file="footer.html"-->
+
+
+
 </body>
 </html>
